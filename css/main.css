@@ -1,0 +1,93 @@
+body{
+    margin: 20px;
+    background-color:#b5d299 ;
+  font-family: 'papyrus' ;
+}
+  
+  .container{
+    width: 100%;
+    margin:0 auto;
+    background: #b5d299;
+    margin: 0;
+    
+}
+.head{
+    background-image: linear-gradient(to right, rgba(181,210,153,255) 0%, rgba(181,210,153,255) 100%), url("../images/background/bk.jpg");
+    background-repeat: no-repeat;
+  
+    width: 100%;
+    min-height: 100vh;
+  
+    background-size: cover;
+  }
+
+    
+	  /* acasa presentation */
+	  
+	  .presentation_title{
+	    font-size: 25px;
+	    color: white;
+	    font-weight: 700;
+	  
+	    text-align: center;
+	    padding-top: 170px;
+	  }
+	  
+	  .presentation_description{
+        text-align: center;
+	    
+	    background-color: #e000d5;
+	    border: none;
+	    max-width: 100px;
+	    margin-top: 20px;
+	  }
+	  
+	  .presentation_text_p{
+	    padding-top: 10px;
+	    text-align: center;
+       
+	  }
+	  
+	  .presentation__text{
+	    color:#68424c;
+	    margin: 0 100px;
+        font-family: ;
+	  }
+      .presentation__bottom{
+	    padding-top: 50px;
+	    text-align: center;
+	  }
+	  
+	  .buttom{
+	    /*decoration: none;*/
+	    width: 218px;
+	    height: 68px;
+	    background-color: rgba(0, 0, 0, 0.0);
+	    border-radius: 2%;
+	    border-color: #a5158d;
+	    color: #00e0d0;
+	  
+	    transition: color .2s linear;
+	    transition: background .2s linear;
+	  }
+	  
+	  .buttom:hover{
+	    background-color: #68424c;
+	    color: blanchedalmond;
+	    border-color: black;
+	  }
+
+
+      footer.bottom_bar
+      {
+          height: 70px;
+          width: 100%;
+          font-family: montserrat;
+          overflow: hidden;
+          margin-top: 50px;
+          background: #68424c;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #C4E0E5,#68424c;);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #C4E0E5,#68424c;); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          position: relative;
+      }
+      
